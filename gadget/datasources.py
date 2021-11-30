@@ -2,6 +2,11 @@ import os
 from abc import ABC, abstractmethod
 from typing import Optional
 
+# TODO
+# ds.isDeltaTable
+# ds.readDelta
+# ds.readParquet
+# ...
 
 class DataSource(ABC):
     def __init__(self, source_type):
